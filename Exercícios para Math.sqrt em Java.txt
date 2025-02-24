@@ -1,0 +1,82 @@
+Exercícios para Math.sqrt em Java:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Raiz quadrada de 16: " + Math.sqrt(16));
+        System.out.println("Raiz quadrada de 81: " + Math.sqrt(81));
+        System.out.println("Raiz quadrada de 2 arredondada para duas casas decimais: " + Math.round(Math.sqrt(2) * 100.0) / 100.0);
+        System.out.println("Raiz quadrada de 0: " + Math.sqrt(0));
+        System.out.println("Raiz quadrada de 144: " + Math.sqrt(144));
+        System.out.println("Raiz quadrada de 225: " + Math.sqrt(225));
+        System.out.println("Raiz quadrada de 0.25: " + Math.sqrt(0.25));
+        System.out.println("Raiz quadrada de 1: " + Math.sqrt(1));
+        System.out.println("Raiz quadrada de 10 arredondada para uma casa decimal: " + Math.round(Math.sqrt(10) * 10.0) / 10.0);
+        System.out.println("Raiz quadrada de 400: " + Math.sqrt(400));
+        System.out.println("Raiz quadrada de 0.04: " + Math.sqrt(0.04));
+        System.out.println("Raiz quadrada de 121: " + Math.sqrt(121));
+        System.out.println("Raiz quadrada de 625: " + Math.sqrt(625));
+        System.out.println("Raiz quadrada de 50 arredondada para duas casas decimais: " + Math.round(Math.sqrt(50) * 100.0) / 100.0);
+        System.out.println("Raiz quadrada de 900: " + Math.sqrt(900));
+        System.out.println("Raiz quadrada de 10000: " + Math.sqrt(10000));
+        System.out.println("Raiz quadrada de 0.001 arredondada para três casas decimais: " + Math.round(Math.sqrt(0.001) * 1000.0) / 1000.0);
+        System.out.println("Raiz quadrada de 36: " + Math.sqrt(36));
+        System.out.println("Raiz quadrada de 49: " + Math.sqrt(49));
+        System.out.println("Raiz quadrada de 169: " + Math.sqrt(169));
+    }
+}
+
+Exercícios para Math.pow em Java:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("2 elevado a 3: " + Math.pow(2, 3));
+        System.out.println("5 elevado a 2: " + Math.pow(5, 2));
+        System.out.println("10 elevado a 0: " + Math.pow(10, 0));
+        System.out.println("3 elevado a 4: " + Math.pow(3, 4));
+        System.out.println("7 elevado a 2: " + Math.pow(7, 2));
+        System.out.println("2 elevado a 10: " + Math.pow(2, 10));
+        System.out.println("0.5 elevado a 2: " + Math.pow(0.5, 2));
+        System.out.println("1 elevado a 100: " + Math.pow(1, 100));
+        System.out.println("4 elevado a 0.5: " + Math.pow(4, 0.5));
+        System.out.println("(-2) elevado a 3: " + Math.pow(-2, 3));
+        System.out.println("6 elevado a 3: " + Math.pow(6, 3));
+        System.out.println("8 elevado a 2: " + Math.pow(8, 2));
+        System.out.println("(-3) elevado a 2: " + Math.pow(-3, 2));
+        System.out.println("9 elevado a 0.5: " + Math.pow(9, 0.5));
+        System.out.println("2 elevado a -3: " + Math.pow(2, -3));
+        System.out.println("0.1 elevado a 2: " + Math.pow(0.1, 2));
+        System.out.println("100 elevado a 0.5: " + Math.pow(100, 0.5));
+        System.out.println("10 elevado a -2: " + Math.pow(10, -2));
+        System.out.println("(-1) elevado a 3: " + Math.pow(-1, 3));
+        System.out.println("0 elevado a 5: " + Math.pow(0, 5));
+    }
+}
+
+
+Exercícios para Math.abs em Java:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Valor absoluto de -10: " + Math.abs(-10));
+        System.out.println("Valor absoluto de 15: " + Math.abs(15));
+        System.out.println("Valor absoluto de 0: " + Math.abs(0));
+        System.out.println("Valor absoluto de -5.5: " + Math.abs(-5.5));
+        System.out.println("Valor absoluto de -100: " + Math.abs(-100));
+        System.out.println("Valor absoluto de -0.01: " + Math.abs(-0.01));
+        System.out.println("Valor absoluto de -1234: " + Math.abs(-1234));
+        System.out.println("Valor absoluto de 3.1415: " + Math.abs(3.1415));
+        System.out.println("Valor absoluto de -999: " + Math.abs(-999));
+        System.out.println("Valor absoluto de -1: " + Math.abs(-1));
+        System.out.println("Valor absoluto de -25: " + Math.abs(-25));
+        System.out.println("Valor absoluto de 50: " + Math.abs(50));
+        System.out.println("Valor absoluto de -0.5: " + Math.abs(-0.5));
+        System.out.println("Valor absoluto de -2.718: " + Math.abs(-2.718));
+        System.out.println("Valor absoluto de -777: " + Math.abs(-777));
+        System.out.println("Valor absoluto de -100000: " + Math.abs(-100000));
+        System.out.println("Valor absoluto de -0.0001: " + Math.abs(-0.0001));
+        System.out.println("Valor absoluto de 42: " + Math.abs(42));
+        System.out.println("Valor absoluto de -8.8: " + Math.abs(-8.8));
+        System.out.println("Valor absoluto de -500: " + Math.abs(-500));
+    }
+}
+
